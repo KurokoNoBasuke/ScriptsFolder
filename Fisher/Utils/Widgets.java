@@ -19,8 +19,7 @@ public class Widgets extends Node {
         }
 
         if(ctx.widgets.get(1223, 3).isVisible()){
-            System.out.println("True");
-            ctx.widgets.get(1223, 12).hover();
+           ctx.widgets.get(1223, 12).click();
         }
     }
 
